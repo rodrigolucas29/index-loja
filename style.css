@@ -1,0 +1,276 @@
+@charset "UTF-8";
+
+body{
+    width: 1000px;
+    background-color: white;
+    margin: auto;
+}
+
+
+
+button.slick-prev{
+    border: none;
+    font-size: 0;
+    width: 25px;
+    height: 51px;
+    background-color:transparent;
+    background-image: url(anterior.png);
+    position: absolute;
+    z-index: 9;
+    top: 60%;
+    left: 20%;
+}
+
+button.slick-next{
+    border: none;
+    font-size: 0;
+    width: 27px;
+    height: 51px;
+    background-color: transparent;
+    background-image: url(proximo.png);
+    position: absolute;
+    z-index: 9;
+    top: 60%;
+    right: 20%;
+}
+
+ul.slick-dots{
+    list-style: none;
+}
+
+
+.slick-list{
+    width: 100%!important;
+}
+
+.slick-initialized{
+    overflow: hidden;
+}
+
+
+.slick-dots{
+    margin: 0 auto;
+    width: 50%;
+    position: relative;
+    left: 18%;
+    top: -45px;
+}
+
+.slick-dots li{
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.slick-dots li button{
+    font-size: 0px;
+    border: 5px solid white;
+    width: 25px;
+    height: 25px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+li.slick-active button{
+    background:black;
+}
+
+.mn02{
+    padding: 20px;
+    
+}
+
+.mn02 a{
+    padding: 20px;
+    text-decoration: none;
+}
+
+.search{
+    position: absolute;
+    top: 68px;
+    left: 345px;
+}
+
+.mnright{
+    position: absolute;
+    top: 65px;
+    left: 730px;
+    
+}
+
+.mnright nav a{
+    padding: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-weight: 700;
+}
+.mnright nav a:hover{
+    text-decoration: underline;
+}
+
+.mnright nav img.imgmn02{
+    position: absolute;
+    left: 180px;
+    top: 14px;
+}
+
+.mnright nav img.imgmn01{
+    position: absolute;
+    left: 20px;
+    top: 16px;
+}
+
+.mnright nav img.imgmn03{
+    position: relative;
+    top: 14px;
+    left: 60px; 
+}
+
+.header2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.header2 nav a{
+    color: black;
+}
+.header2 nav a:hover{
+    font-weight: bold;
+}
+
+.principal{
+    text-align: center;
+}
+
+.principal h1{
+    color: black;
+    font-size: 30px;
+}
+
+.principal nav a{
+    color: black;
+    font-size: 16px;
+    border: 1px solid #c3c3c3;
+    padding: 10px;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.principal nav a:hover{
+    background-color: black;
+    color: white;
+}
+
+section.meio ul#album{
+    width: 1000px;
+    overflow: hidden;
+    list-style: none;
+}
+
+section.meio ul#album li{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    
+}
+
+section.insti ul{
+    overflow: hidden;
+    list-style: none;
+}
+.insti a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.insti a:hover{
+    color: #c3c3c3;
+    text-decoration: underline black;
+}
+
+.insti h2{
+    font-size: 23px;
+}
+
+
+
+section.supor ul{
+    overflow: hidden;
+    list-style: none;
+    position: absolute;
+    top: 945px;
+    left: 510px;
+    margin-top: 120px;
+}
+
+.supor ul h2{
+text-transform: uppercase;
+font-size: 23px;
+}
+
+
+
+
+.supor a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.supor a:hover{
+    color: #c3c3c3;
+    text-decoration: underline black;
+}
+
+section.conta ul{
+    overflow: hidden;
+    list-style: none;
+    position: absolute;
+    top: 945px;
+    left: 900px;
+    margin-top: 120px;
+}
+
+.conta ul h2{
+text-transform: uppercase;
+font-size: 23px;
+}
+
+
+
+.conta a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.conta a:hover{
+text-decoration: underline black;
+color: #c3c3c3;
+}
+
+footer{
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+div.mnbx{
+    margin-top: 100px;
+border-top: 1px solid #cecece;
+}
+
+input{
+    
+    padding: 7px;
+}
+
+.pesquisa{
+    position: relative;
+    left: -25px;
+    top: 10px;
+}
